@@ -4,6 +4,6 @@ applications:
     domain: mybluemix.net
     host: trialAppl
     path: target/trialProject-1.0-SNAPSHOT.jar
-    memory: 512M
+    memory: 256M
     buildpack: java_buildpack
     instances: 1
