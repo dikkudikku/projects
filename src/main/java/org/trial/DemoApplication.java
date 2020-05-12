@@ -16,6 +16,11 @@ public class DemoApplication {
 
     @GetMapping("/hello")
     public String hello(@RequestParam(value = "name", defaultValue = "World") String name) {
-        return String.format("Hello %s!", name);
+        return String.format("Hello %s : Your /hello sprinboot app url ", name);
+    }
+
+    @GetMapping("/")
+    public String hell() {
+        return String.format("Hello Dear! Your default springboot app url ");
     }
 }
